@@ -57,6 +57,10 @@ sudo apt install -y sharutils rar uudeview mpack arj cabextract file-roller
 ################################
 echo "[*] Installation of Android tools..."
 sudo apt install -y android-tools-adb android-tools-fastboot
+# android-screenshot
+# https://askubuntu.com/questions/544533/how-to-install-avconv-with-libfdk-aac-on-ubuntu-14-04
+# sudo apt install -y ffmpeg libav-tools yad
+sudo apt install -y ffmpeg yad
 ################################
 echo "[*] Installation of database tools..."
 sudo apt install -y libsqlite3-dev sqlite3
